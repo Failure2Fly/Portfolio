@@ -70,25 +70,24 @@ a:hover,a:focus{text-decoration:none;}
   font-family: 'Josefin Slab', serif;
   font-size: 20px;
 }
-button{
-  background:none;
-  border:none;
-  padding:0 20px;
-}
-button:hover, button:focus{
-  background:rgba(0,0,0,0.4);
-  outline:none;
-}
+/*button{*/
+/*  background:none;*/
+/*  border:none;*/
+/*  padding:0 20px;*/
+/*}*/
+/*button:hover, button:focus{*/
+/*  background:rgba(0,0,0,0.4);*/
+/*  outline:none;*/
+/*}*/
 .content{
   margin:50px;
   margin-top:75px;
   margin-bottom:0;
 }
-@media only screen and (max-width : 768px){
-  #text-changer-1{
-    margin-left:50px;
-  }
+.work-samples {
+  top: 45%;
 }
+
 #text-changer-1{
   max-width:750px;  
   margin-left:75px;
@@ -139,12 +138,12 @@ button:hover, button:focus{
   margin:5px;
   overflow-y : auto;
 }
-.shadow{
-  box-shadow: 7px 7px 7px #666;
-   position : relative;
-  transition : all 0.2s;
-  top : 0;
-}
+/*.shadow{*/
+/*  box-shadow: 7px 7px 7px #666;*/
+/*   position : relative;*/
+/*  transition : all 0.2s;*/
+/*  top : 0;*/
+/*}*/
 
 .stm-font{
   font-family: 'Share Tech Mono',monospace;
@@ -163,4 +162,10 @@ button:hover, button:focus{
   color:white;
   
   text-shadow:1px 1px 2px black;
+}
+
+@media only screen and (max-width : 768px){
+  #text-changer-1{
+    margin-left:50px;
+  }
 }
